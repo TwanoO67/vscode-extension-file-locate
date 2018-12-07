@@ -26,7 +26,7 @@ Won't work on system who don't have locate
 - `vsce login TwanoO67`
 ## Then
 - `vi package.json`  to update version number
-- `vcse publish`
+- `vsce publish`
 
 ## Release Notes
 
