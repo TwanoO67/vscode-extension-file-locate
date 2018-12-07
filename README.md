@@ -2,6 +2,8 @@
 
 VSCode Extension "file-locate". Easily locate file on your disk (even if it's out of your workspace) and open it in vscode.
 
+![Preview](https://github.com/TwanoO67/vscode-extension-file-locate/raw/master/images/demo.gif)
+
 ## Features
 
 Add the command "Locate File" in your palette, that use the selected word in editor to look for file on your disk and open it.
@@ -18,6 +20,11 @@ None
 ## Known Issues
 
 Won't work on system who don't have locate
+
+## Recording Demo
+
+See here:
+https://github.com/phw/peek
 
 # Publication
 
