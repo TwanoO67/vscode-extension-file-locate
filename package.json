@@ -10,14 +10,14 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onCommand:extension.locateFile"
     ],
     "main": "./out/extension",
     "contributes": {
         "commands": [
             {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+                "command": "extension.locateFile",
+                "title": "Locate File"
             }
         ]
     },
