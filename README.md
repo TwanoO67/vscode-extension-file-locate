@@ -1,6 +1,6 @@
 # file-locate README
 
-VSCode Extension "file-locate". Easily locate file on your disk.
+VSCode Extension "file-locate". Easily locate file on your disk (even if it's out of your workspace) and open it in vscode.
 
 ## Features
 
@@ -29,6 +29,10 @@ Won't work on system who don't have locate
 - `vcse publish`
 
 ## Release Notes
+
+### 1.0.1
+
+* Filter search string with slashes and backslashes
 
 ### 1.0.0
 

@@ -1,8 +1,8 @@
 {
     "name": "file-locate",
     "displayName": "file-locate",
-    "description": "Locate file on your disk and open in vscode",
-    "version": "1.0.0",
+    "description": "Locate file on your disk (even if it's out of your workspace) and open it in vscode.",
+    "version": "1.0.1",
     "publisher": "TwanoO67",
     "icon":"images/icon.png",
     "repository": {

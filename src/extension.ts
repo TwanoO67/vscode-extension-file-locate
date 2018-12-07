@@ -14,6 +14,13 @@ function getQuickPickItem(uri: any): any{
     };
 }
 
+//clear text from unsupported char for locate
+function clearText(txt:any){
+    txt = txt.split('/').pop();
+    txt = txt.split('\\').pop();
+    return txt;
+}
+
 export function activate(context: vscode.ExtensionContext) {
 
     // Use the console to output diagnostic information (console.log) and errors (console.error)
@@ -28,12 +35,12 @@ export function activate(context: vscode.ExtensionContext) {
         let editor = vscode.window.activeTextEditor;
         //let doc = editor.document;
         if(editor){
-            let text = editor.document.getText(editor.selection);
+            let text = clearText(editor.document.getText(editor.selection));
              // Display a message box to the user
             vscode.window.showInformationMessage('Recherche en cours pour: ' + text );
 
             const cp = require('child_process');
-            cp.exec('locate '+text, (err:any, stdout:any, stderr:any) => {
+            cp.exec('locate "'+text+'"', (err:any, stdout:any, stderr:any) => {
 
                 let files = stdout.split("\n");
                 files = files.filter((s:string) => s.length>0).map((f:string) => getQuickPickItem(f));
