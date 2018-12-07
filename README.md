@@ -1,4 +1,4 @@
-# file-locate README
+# VSCode - file-locate
 
 VSCode Extension "file-locate". Easily locate file on your disk (even if it's out of your workspace) and open it in vscode.
 
@@ -36,6 +36,10 @@ https://github.com/phw/peek
 - `vsce publish`
 
 ## Release Notes
+
+### 1.0.2
+
+* Update description and add demo
 
 ### 1.0.1
 
