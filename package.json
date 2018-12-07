@@ -3,6 +3,12 @@
     "displayName": "file-locate",
     "description": "Locate file on your disk and open in vscode",
     "version": "1.0.0",
+    "publisher": "TwanoO67",
+    "icon":"images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TwanoO67/vscode-extension-file-locate.git"
+    },
     "engines": {
         "vscode": "^1.29.0"
     },

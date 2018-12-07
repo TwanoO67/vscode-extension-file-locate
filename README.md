@@ -19,6 +19,15 @@ None
 
 Won't work on system who don't have locate
 
+# Publication
+
+## On new install of vcse
+- `npm install -g vsce`
+- `vsce login TwanoO67`
+## Then
+- `vi package.json`  to update version number
+- `vcse publish`
+
 ## Release Notes
 
 ### 1.0.0
